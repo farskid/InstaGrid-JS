@@ -15,7 +15,7 @@ browser: Just get the last version from __dist__ folder and use it. It's your ch
 ## Usage
 
 ```
-new InstaLayout([INPUT_ELEMENT], [RESULT_CONTAINER])
+new InstaGrid([INPUT_ELEMENT], [RESULT_CONTAINER])
 
 Params:
   * the input[type=file] element
