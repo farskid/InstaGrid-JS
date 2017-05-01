@@ -25,7 +25,7 @@ Params:
   <!-- This is where our result would be rendered to DOM -->
 </div>  
 
-<script src="PATH_TO_INSTALAYOUT.JS"></script>
+<script src="PATH_TO_INSTAGRID.JS"></script>
 <script>
   function runLayout(elem) {
     var layout = new InstaGrid(elem, '.result')
