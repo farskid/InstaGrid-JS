@@ -1,0 +1,14 @@
+{
+  "name": "instagrid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/farskid/InstaLayout-JS.git",
+  "author": "Farzad YZ <farskid@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.15.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Test InstaLayout-JS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="block">
+      <input type="file" id="file" onchange="runLayout(this)">
+    </div>
+    <div class="block">
+      <div id="result" class="result"></div>
+    </div>
+    <script src="../dist/script.es6.js"></script>
+    <script>
+      function runLayout(elem) {
+        var layout = new InstaGrid(elem, '.result')
+        layout.render(function(self) {
+          console.log(self.getSources())
+        })
+      }
+    </script>
+  </body>
+</html>
