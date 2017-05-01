@@ -14,7 +14,7 @@ browser: Just get the last version from __dist__ folder and use it. It's your ch
 
 ## Usage
 
-```
+```javascript
 new InstaGrid([INPUT_ELEMENT], [RESULT_CONTAINER])
 
 Params:
@@ -22,7 +22,7 @@ Params:
   * the resulting container className
 ```
 
-```
+```html
 <input type="file" id="file" onchange="runLayout(this)">
 <div class="result">
   <!-- This is where our result would be rendered to DOM -->
