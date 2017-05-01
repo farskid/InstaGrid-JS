@@ -1,5 +1,5 @@
 const utils = require('./utils')
-const { canvasFactory, setElemAttrs, setElemDimensions, setElemStyles, resetHTML } = utils
+const { canvasFactory, setElemAttrs, setElemDimensions, setElemStyles, resetHTML, isFunction } = utils
 
 class InstaLayout {
   constructor(elem, resultClassName) {
